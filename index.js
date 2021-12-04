@@ -17,6 +17,10 @@ module.exports = client;
 client.slashCommands = new Discord.Collection();
 client.config = require("./config.json");
 require("./handler")(client);
+<<<<<<< HEAD
 client.login("OTE2NzMwMjkwODgwMjgyNjg1.YauZnQ._Jxi_M8OsaBwzuISUMkGZYSP0DQ");
+=======
+client.login("");
+>>>>>>> origin/main
 
 
