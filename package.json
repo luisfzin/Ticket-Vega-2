@@ -1,0 +1,22 @@
+{
+  "name": "Ticket-Vega-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "express": "^4.17.1",
+    "glob": "^7.2.0",
+    "quick.db": "^7.1.3"
+  },
+  "devDependencies": {
+    "node": "^16.13.0"
+  }
+}
