@@ -54,17 +54,17 @@ client.on("interactionCreate", async (interaction) => {
             if (ms == null) {
         
    let embed = new Discord.MessageEmbed()
-   .setTitle("Olá, Bem-vindo(a) ao seu ticket")
-      .setColor("#00BFFF")
+   .setTitle("<:equipe:915988526930219040> **Olá, em que nossa equipe poderia ajudar?**")
+      .setColor("RANDOM")
    let cc = new Discord.MessageActionRow().addComponents( fechar)
                       
 
-                interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
+                interaction.guild.channels.create(`suporte-${interaction.user.username}`, {
                     type : 'GUILD_TEXT',
                     permissionOverwrites : [
                         {
                             id : interaction.guild.id,
-                            deny : ['VIEW_CHANNEL']
+                            deny : ['VIEW_CHANNEL',]
                         },
                         {
                             id : interaction.user.id,
@@ -100,12 +100,12 @@ client.on("interactionCreate", async (interaction) => {
         
         
    let embed = new Discord.MessageEmbed()
-   .setTitle("Olá, Bem-vindo(a) ao seu ticket")
-      .setColor("#00BFFF")
+   .setTitle("<:Alerta:915989723166699591> **Para fazer a Denúncia, siga o exemplo abaixo:** \n<:File_MS:915987102460694599> | **Exemplo: v!denunciar Yota (ID) sua denúncia**")
+      .setColor("RANDOM")
    let cc = new Discord.MessageActionRow().addComponents( fechar)
                       
 
-                interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
+                interaction.guild.channels.create(`denuncia-${interaction.user.username}`, {
                     type : 'GUILD_TEXT',
                     permissionOverwrites : [
                         {
@@ -145,12 +145,12 @@ client.on("interactionCreate", async (interaction) => {
             if (ms == null) {
                 
    let embed = new Discord.MessageEmbed()
-   .setTitle("Olá, Bem-vindo(a) ao seu ticket")
-      .setColor("#00BFFF")
+   .setTitle("<:email:915988475810041866> Para fazer sua Sugestão, siga o exemplo abaixo: \n <:File_MS:915987102460694599> | Exemplo: v!sugerir sua sugestão")
+      .setColor("RANDOM")
    let cc = new Discord.MessageActionRow().addComponents( fechar)
                       
 
-                interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
+                interaction.guild.channels.create(`sugestao-${interaction.user.username}`, {
                     type : 'GUILD_TEXT',
                     permissionOverwrites : [
                         {
@@ -191,12 +191,12 @@ client.on("interactionCreate", async (interaction) => {
         
         
    let embed = new Discord.MessageEmbed()
-   .setTitle("Olá, Bem-vindo(a) ao seu ticket")
-      .setColor("#00BFFF")
+   .setTitle("<:equipe:915988526930219040> **Olá, qual de nossos produtos você gostaria de adquirir?**")
+      .setColor("RANDOM")
    let cc = new Discord.MessageActionRow().addComponents( fechar)
                       
 
-                interaction.guild.channels.create(`ticket-${interaction.user.username}`, {
+                interaction.guild.channels.create(`compra-${interaction.user.username}`, {
                     type : 'GUILD_TEXT',
                     permissionOverwrites : [
                         {
