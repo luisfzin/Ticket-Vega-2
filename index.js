@@ -17,6 +17,6 @@ module.exports = client;
 client.slashCommands = new Discord.Collection();
 client.config = require("./config.json");
 require("./handler")(client);
-client.login("OTE2NzMwMjkwODgwMjgyNjg1.YauZnQ.jDY8s3KJf-3oyFqMtUhUWBnzy6A");
+client.login("OTE2NzMwMjkwODgwMjgyNjg1.YauZnQ._Jxi_M8OsaBwzuISUMkGZYSP0DQ");
 
 
